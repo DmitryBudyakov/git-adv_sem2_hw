@@ -1,2 +1,2 @@
-# git-adv_sem1_hw
-This file created together repo
+# git-adv_sem2_hw
+This file updated for seminar 2
