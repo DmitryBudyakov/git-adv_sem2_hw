@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 import java.time.LocalDate;
 import java.time.Period;
 
-=======
->>>>>>> parent of c5274e6 (Added method countingFromNumber)
 /**
  * Main
  */
@@ -11,7 +8,6 @@ public class Main {
     final static String CLEAR_SCREEN = "\\\033[H\\\033[2J"+"\r";
 
     public static void main(String[] args) {
-<<<<<<< HEAD
         System.out.print(CLEAR_SCREEN);
         System.out.println("Hello Git Advanced!!!");
         try {
@@ -70,14 +66,12 @@ public class Main {
         Thread.sleep(3000);
         System.out.println();
         System.out.println();
-        System.out.println("Iе comes soon :))");
+        System.out.println("It comes soon :))");
         Thread.sleep(2000);
         System.out.println("Bye! Be happy! :)");
         Thread.sleep(2000);
         System.out.print(CLEAR_SCREEN);
 
-=======
         System.out.println("Hello Git Advanced!!!");
->>>>>>> parent of c5274e6 (Added method countingFromNumber)
     }
 }
