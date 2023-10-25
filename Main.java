@@ -52,7 +52,11 @@ public class Main {
         Thread.sleep(3000);
         System.out.print(CLEAR_SCREEN);
         LocalDate now = LocalDate.now();
-        System.out.println("Today is " + now);
+        int day = now.getDayOfMonth();
+        int month = now.getMonthValue();
+        int year = now.getYear();
+        System.out.printf("Today is %s.%s.%s", day, month, year);
+        System.out.println();
         Period diff = Period.between(now, happyNewYearDate);
         // System.out.printf("It is %d years, %d months and %d days to " +
         // happyNewYearDate.getYear(),
